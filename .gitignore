@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# Built dir
+lib
+package-lock.json

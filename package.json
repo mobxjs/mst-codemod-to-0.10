@@ -1,0 +1,38 @@
+{
+  "name": "mst-codemod-to-0.10",
+  "version": "1.0.0",
+  "description": "A codemod that helps migrate to mobx-state-tree 0.10 from previous versions",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobxjs/mst-codemod-to-0.10.git"
+  },
+  "keywords": [
+    "mobx-state-tree",
+    "mobx"
+  ],
+  "author": "Mattia Manzati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobxjs/mst-codemod-to-0.10/issues"
+  },
+  "homepage": "https://github.com/mobxjs/mst-codemod-to-0.10#readme",
+  "dependencies": {
+    "@types/node": "^8.0.23",
+    "typescript": "^2.4.2"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "bin": {
+    "mst-codemod-to-0.10": "index.js"
+  }
+}
