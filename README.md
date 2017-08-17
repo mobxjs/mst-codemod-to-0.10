@@ -11,3 +11,8 @@ After that, the `mst-codemod-to-0.10` command will be available in your command 
 To perform the codemod, you need to call in your command line `mst-codemod-to-0.10` followed by the filename you want to codemod. A `.bak` file with the original source will be created for backup purposes, and the file you provided will be updated to the new syntax! Have fun!
 
 PS: You could also use `npx` instead of installing the codemod globally! :)
+
+**Downsides**
+This codemod uses the TypeScript parser and printer, this means that your code style wont be preserved after the codemod.
+
+If your setup already includes a tool like prettier, I'd recommend to run prettier after the codemod to update the file syntax style accordingly!
